@@ -1,0 +1,15 @@
+---
+configs:
+    # Variables to vagrant file "
+
+    private_ip: "192.168.33.10"
+    hostname: "NOMEDOHOST"
+
+    # Variables to bash script "
+
+    PACKAGE_JSON_FILE: "/var/www/package.json"
+    DIRECTORY_VENDOR: "/var/www/vendor"
+    DUMP_DIR: "/var/www/database/dump"
+    MAIN_DB: "NOME_DO_BANCO_DE_DADOS"
+    PASSWD_DB: "PASSWORD_DO_USER_DO_BANCO_DE_DADOS"
+    HAS_MIGRATE: "false"

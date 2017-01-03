@@ -1,0 +1,55 @@
+### Sass ###
+.sass-cache/
+*.css.map
+
+### Laravel General ###
+node_modules/
+vendor/
+
+### Laravel 5 ###
+.env.*.php
+.env.php
+.env
+
+### Laravel 4 ###
+bootstrap/compiled.php
+app/storage/
+/public/storage
+composer.lock
+
+### PhpStorm ###
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Vagrant stuff
+acceptance_config.yml
+boxes/*
+/.vagrant
+/website/.vagrant
+/website/build
+/vagrant-spec.config.rb
+
+### General ###
+.idea
+docs
+Homestead.yaml
+Homestead.json
+envapp.php
+public/tmp
+public/build/tmp
