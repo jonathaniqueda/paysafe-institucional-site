@@ -1,4 +1,5 @@
 var elixir = require('laravel-elixir');
+require('laravel-elixir-imagemin');
 
 /*
  |--------------------------------------------------------------------------
@@ -36,7 +37,7 @@ elixir(function (mix) {
         progressive: true,
         interlaced: true
     })
-        .sass(['resources/assets/sass/*.scss', 'resources/assets/sass/**/*.scss'], pathCss)
+        // .sass(['resources/assets/sass/*.scss', 'resources/assets/sass/**/*.scss'], pathCss)
         .scripts(['resources/assets/js/*.js', 'resources/assets/js/**/*.js'], pathJs);
 
     //Versionamento do JS e CSS para o browser na cachear em produção
